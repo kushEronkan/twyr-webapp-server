@@ -6,6 +6,7 @@ const chaiHttp = require('chai-http'); // eslint-disable-line node/no-unpublishe
 chai.use(chaiHttp);
 
 describe('Websocket Service Test Cases', function() {
+
 	it('Should return the primus.js client library', function(done) {
 		const expect = chai.expect;
 
